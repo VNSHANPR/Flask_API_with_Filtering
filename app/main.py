@@ -16,15 +16,20 @@ app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 @app.route('/')
-def root(amount:int=10,category:str="AI",difficulty:str="hard",type:str="mulitple"):
+def root(amount:int=5,category:str="AI",difficulty:str="hard",type:str="mulitple"):
+    
+    print(category,amount,type,difficulty)
     category=request.args.get("category")
     difficulty=request.args.get("difficulty")
     type=request.args.get("type")
     amount=int(request.args.get("amount"))
-    print(category,amount,type,difficulty)
-    headers={'Authorization': 'Bearer <PUT YOUR PERSONAL ACCESS TOKEN for PRIVATE REPOSITORY>'}
 
-    data_from_git=requests.get('https://raw.githubusercontent.com/VNSHANPR/Flask_API_with_Filtering/main/questions_answers.json',headers=headers)
+    # if using private GIT define a header
+    #headers={'Authorization': 'Bearer <PUT YOUR PERSONAL ACCESS TOKEN for PRIVATE REPOSITORY>'}
+
+    #data_from_git=requests.get('https://raw.githubusercontent.com/VNSHANPR/Flask_API_with_Filtering/main/questions_answers.json',headers=headers)
+    data_from_git=requests.get('https://raw.githubusercontent.com/VNSHANPR/Flask_API_with_Filtering/main/questions_answers.json')
+
     data_json=data_from_git.json()
 
     if category not in set(list([n['category'] for n in list(filter(lambda a: True if a["category"]==category else False,data_json["results"]))])):
@@ -42,7 +47,8 @@ def root(amount:int=10,category:str="AI",difficulty:str="hard",type:str="mulitpl
 def catgories_fetch():
     headers={'Authorization': '<PUT YOUR PERSONAL ACCESS TOKEN for PRIVATE REPOSITORY>'}
 
-    categories_from_git=requests.get('https://raw.githubusercontent.com/VNSHANPR/Flask_API_with_Filtering/main/categories.json',headers=headers)
+    #categories_from_git=requests.get('https://raw.githubusercontent.com/VNSHANPR/Flask_API_with_Filtering/main/categories.json',headers=headers)
+    categories_from_git=requests.get('https://raw.githubusercontent.com/VNSHANPR/Flask_API_with_Filtering/main/categories.json')
     categories_data_json=categories_from_git.json()
  
     return categories_data_json
