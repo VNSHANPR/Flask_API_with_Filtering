@@ -1,0 +1,127 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "AI",
+      "question": "What is the primary purpose of large language models like GPT-3.5?",
+      "correct_answer": "Natural language understanding and generation",
+      "incorrect_answers": [
+        "Image recognition",
+        "Quantum computing",
+        "Robotics"
+      ],
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "AI",
+      "question": "Which activation function is commonly used in neural networks for language models?",
+      "correct_answer": "ReLU (Rectified Linear Unit)",
+      "incorrect_answers": ["Sigmoid", "Tanh", "Softmax"],
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "AI",
+      "question": "What does the acronym GPT stand for?",
+      "correct_answer": "Generative Pre-trained Transformer",
+      "incorrect_answers": [
+        "Global Programming Toolkit",
+        "Generalized Pattern Transformer",
+        "Gradient Prediction Technology"
+      ],
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "AI",
+      "question": "In the context of language models, what is fine-tuning?",
+      "correct_answer": "Adapting a pre-trained model to a specific task or domain",
+      "incorrect_answers": [
+        "Creating a new model from scratch",
+        "Decomposing a model's architecture",
+        "Applying random weights to a model"
+      ],
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "AI",
+      "question": "Which training approach is often used to scale up large language models?",
+      "correct_answer": "Distributed training across multiple GPUs or TPUs",
+      "incorrect_answers": [
+        "Single-GPU training",
+        "Reinforcement learning",
+        "Unsupervised learning"
+      ],
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "AI",
+      "question": "What is the primary challenge in training very large language models?",
+      "correct_answer": "Computational resources and costs",
+      "incorrect_answers": [
+        "Lack of suitable algorithms",
+        "Data availability",
+        "Model interpretability"
+      ],
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "AI",
+      "question": "Which optimization technique is commonly used in training deep neural networks?",
+      "correct_answer": "Stochastic Gradient Descent (SGD)",
+      "incorrect_answers": [
+        "Genetic algorithms",
+        "Random search",
+        "Ant Colony Optimization"
+      ],
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "AI",
+      "question": "What is the purpose of the attention mechanism in transformer-based models?",
+      "correct_answer": "Capturing long-range dependencies in input sequences",
+      "incorrect_answers": [
+        "Reducing model complexity",
+        "Enhancing model interpretability",
+        "Enabling parallel processing"
+      ],
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "AI",
+      "question": "What is the role of the decoder in a transformer architecture?",
+      "correct_answer": "Generating output sequence from the learned representations",
+      "incorrect_answers": [
+        "Encoding input sequence",
+        "Calculating attention scores",
+        "Regularizing the model"
+      ],
+      "link": "https://chat.openai.com/"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "AI",
+      "question": "Which evaluation metric is commonly used for language generation tasks?",
+      "correct_answer": "BLEU (Bilingual Evaluation Understudy)",
+      "incorrect_answers": ["F1 score", "Precision", "Recall"],
+      "link": "https://chat.openai.com/"
+    }
+  ]
+}

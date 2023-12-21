@@ -1,0 +1,10 @@
+applications:
+  - name: quiz_app_backend
+    buildpacks:
+      - python_buildpack
+    path: app
+    memory: 256MB
+    disk_quota: 4096MB
+    host: quiz_app_backend
+    #command: python3 -m uvicorn main:app
+    command: python3 main.py
