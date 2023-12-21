@@ -24,7 +24,7 @@ def root(amount:int=10,category:str="AI",difficulty:str="hard",type:str="mulitpl
     print(category,amount,type,difficulty)
     headers={'Authorization': 'Bearer <PUT YOUR PERSONAL ACCESS TOKEN for PRIVATE REPOSITORY>'}
 
-    data_from_git=requests.get('https://raw.github../quiz_questions.json',headers=headers)
+    data_from_git=requests.get('https://raw.githubusercontent.com/VNSHANPR/Flask_API_with_Filtering/main/questions_answers.json',headers=headers)
     data_json=data_from_git.json()
 
     if category not in set(list([n['category'] for n in list(filter(lambda a: True if a["category"]==category else False,data_json["results"]))])):
@@ -42,7 +42,7 @@ def root(amount:int=10,category:str="AI",difficulty:str="hard",type:str="mulitpl
 def catgories_fetch():
     headers={'Authorization': '<PUT YOUR PERSONAL ACCESS TOKEN for PRIVATE REPOSITORY>'}
 
-    categories_from_git=requests.get('https://raw.github.../categories.json',headers=headers)
+    categories_from_git=requests.get('https://raw.githubusercontent.com/VNSHANPR/Flask_API_with_Filtering/main/categories.json',headers=headers)
     categories_data_json=categories_from_git.json()
  
     return categories_data_json
