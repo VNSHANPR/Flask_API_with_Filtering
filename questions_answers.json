@@ -20,7 +20,10 @@
       "category": "AI",
       "question": "Which activation function is commonly used in neural networks for language models?",
       "correct_answer": "ReLU (Rectified Linear Unit)",
-      "incorrect_answers": ["Sigmoid", "Tanh", "Softmax"],
+      "incorrect_answers": [
+        "Sigmoid",
+        "Tanh",
+        "Softmax"],
       "link": "https://chat.openai.com/"
     },
     {
