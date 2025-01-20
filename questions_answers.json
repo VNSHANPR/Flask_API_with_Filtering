@@ -3,7 +3,7 @@
   "results": [
     {
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "BTP AI Updates Jan 2025",
       "question": "What is the primary role of tools in a Generative AI agent's architecture?",
       "correct_answer": "To enable interaction with external systems and access real-time data",
