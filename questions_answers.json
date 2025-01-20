@@ -130,6 +130,58 @@
         "Direct tool execution in real-time"
       ],
       "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "What is the primary purpose of the text embedding function in SAP HANA Cloud's Predictive Analysis Library (PAL)?",
+      "correct_answer": "To convert text data into numerical vectors for advanced text mining and machine learning applications.",
+      "incorrect_answers": [
+        "To store text data in a compressed format.",
+        "To translate text data into multiple languages.",
+        "To encrypt text data for security purposes."
+      ],
+      "link": "https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/text-embedding-service-in-sap-hana-cloud-predictive-analysis-library-pal/ba-p/13958864"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "Which SQL procedure is used to generate text embeddings in SAP HANA Cloud's PAL?",
+      "correct_answer": "PAL_TEXTEMBEDDING",
+      "incorrect_answers": [
+        "PAL_TEXT_ANALYSIS",
+        "PAL_EMBEDDING_GENERATE",
+        "PAL_TEXT_VECTORIZE"
+      ],
+      "link": "https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/text-embedding-service-in-sap-hana-cloud-predictive-analysis-library-pal/ba-p/13958864"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "What parameter specifies the type of input text in the PAL_TEXTEMBEDDING procedure?",
+      "correct_answer": "IS_QUERY",
+      "incorrect_answers": [
+        "TEXT_TYPE",
+        "INPUT_MODE",
+        "TEXT_CATEGORY"
+      ],
+      "link": "https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/text-embedding-service-in-sap-hana-cloud-predictive-analysis-library-pal/ba-p/13958864"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "What is the default behavior if the MODEL_VERSION parameter is not specified in the PAL_TEXTEMBEDDING procedure?",
+      "correct_answer": "The latest model version will be used.",
+      "incorrect_answers": [
+        "An error will be thrown.",
+        "A prompt will request the user to specify the model version.",
+        "The procedure will use a deprecated model version."
+      ],
+      "link": "https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/text-embedding-service-in-sap-hana-cloud-predictive-analysis-library-pal/ba-p/13958864"
     }
   ]
 }
