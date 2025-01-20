@@ -29,7 +29,7 @@
     },
     {
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "BTP AI Updates Jan 2025",
       "question": "How does an agent differ from a standalone language model?",
       "correct_answer": "Agents use tools and have orchestration layers for planning and decision-making.",
@@ -42,7 +42,7 @@
     },
     {
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "BTP AI Updates Jan 2025",
       "question": "What is the purpose of the orchestration layer in an agent?",
       "correct_answer": "To manage reasoning, decision-making, and task execution cycles.",
@@ -68,7 +68,7 @@
     },
     {
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "BTP AI Updates Jan 2025",
       "question": "What does the ReAct framework enable agents to do?",
       "correct_answer": "Combine reasoning and action steps in decision-making",
@@ -94,7 +94,7 @@
     },
     {
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "BTP AI Updates Jan 2025",
       "question": "What is the main advantage of the Tree-of-Thoughts (ToT) framework?",
       "correct_answer": "It supports exploration and strategic lookahead tasks.",
@@ -107,7 +107,7 @@
     },
     {
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "category": "BTP AI Updates Jan 2025",
       "question": "What kind of use case is best suited for Extensions in an agent?",
       "correct_answer": "Tasks requiring real-time interaction with APIs",
