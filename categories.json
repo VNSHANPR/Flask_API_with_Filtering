@@ -1,7 +1,11 @@
 [
     {
         "key": "0",
-        "text": "BTP AI Updates Jan 2025",
+        "text": "AI Agents",
         "value": "0"
+    },{
+        "key": "1",
+        "text": "HANA Cloud embeddings",
+        "value": "1"
     }
 ]
