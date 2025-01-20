@@ -134,7 +134,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "HANA Cloud embedding",
+      "category": "HANA Cloud embeddings",
       "question": "What is the primary purpose of the text embedding function in SAP HANA Cloud's Predictive Analysis Library (PAL)?",
       "correct_answer": "To convert text data into numerical vectors for advanced text mining and machine learning applications.",
       "incorrect_answers": [
@@ -147,7 +147,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "HANA Cloud embedding",
+      "category": "HANA Cloud embeddings",
       "question": "Which SQL procedure is used to generate text embeddings in SAP HANA Cloud's PAL?",
       "correct_answer": "PAL_TEXTEMBEDDING",
       "incorrect_answers": [
@@ -160,7 +160,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "HANA Cloud embedding",
+      "category": "HANA Cloud embeddings",
       "question": "What parameter specifies the type of input text in the PAL_TEXTEMBEDDING procedure?",
       "correct_answer": "IS_QUERY",
       "incorrect_answers": [
@@ -173,7 +173,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "HANA Cloud embedding",
+      "category": "HANA Cloud embeddings",
       "question": "What is the default behavior if the MODEL_VERSION parameter is not specified in the PAL_TEXTEMBEDDING procedure?",
       "correct_answer": "The latest model version will be used.",
       "incorrect_answers": [
