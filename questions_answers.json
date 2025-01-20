@@ -4,130 +4,132 @@
     {
       "type": "multiple",
       "difficulty": "medium",
-      "category": "AI",
-      "question": "What is the primary purpose of large language models like GPT-3.5?",
-      "correct_answer": "Natural language understanding and generation",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "What is the primary role of tools in a Generative AI agent's architecture?",
+      "correct_answer": "To enable interaction with external systems and access real-time data",
       "incorrect_answers": [
-        "Image recognition",
-        "Quantum computing",
-        "Robotics"
+        "To improve the language model's internal knowledge",
+        "To reduce computational complexity",
+        "To optimize storage requirements"
       ],
-      "link": "https://chat.openai.com/"
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
     },
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "AI",
-      "question": "Which activation function is commonly used in neural networks for language models?",
-      "correct_answer": "ReLU (Rectified Linear Unit)",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "Which framework is designed to enable reasoning capabilities through intermediate steps in AI agents?",
+      "correct_answer": "Chain-of-Thought (CoT)",
       "incorrect_answers": [
-        "Sigmoid",
-        "Tanh",
-        "Softmax"],
-      "link": "https://chat.openai.com/"
-    },
-    {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "AI",
-      "question": "What does the acronym GPT stand for?",
-      "correct_answer": "Generative Pre-trained Transformer",
-      "incorrect_answers": [
-        "Global Programming Toolkit",
-        "Generalized Pattern Transformer",
-        "Gradient Prediction Technology"
+        "ReAct",
+        "Tree-of-Thoughts (ToT)",
+        "LangChain"
       ],
-      "link": "https://chat.openai.com/"
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
     },
     {
       "type": "multiple",
       "difficulty": "medium",
-      "category": "AI",
-      "question": "In the context of language models, what is fine-tuning?",
-      "correct_answer": "Adapting a pre-trained model to a specific task or domain",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "How does an agent differ from a standalone language model?",
+      "correct_answer": "Agents use tools and have orchestration layers for planning and decision-making.",
       "incorrect_answers": [
-        "Creating a new model from scratch",
-        "Decomposing a model's architecture",
-        "Applying random weights to a model"
+        "Agents are limited to predefined tasks.",
+        "Agents operate without external input.",
+        "Agents only work with static datasets."
       ],
-      "link": "https://chat.openai.com/"
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "What is the purpose of the orchestration layer in an agent?",
+      "correct_answer": "To manage reasoning, decision-making, and task execution cycles.",
+      "incorrect_answers": [
+        "To train the language model.",
+        "To store user queries and responses.",
+        "To optimize API calls."
+      ],
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
     },
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "AI",
-      "question": "Which training approach is often used to scale up large language models?",
-      "correct_answer": "Distributed training across multiple GPUs or TPUs",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "Which tool type is executed on the client-side, offering developers more control over API calls?",
+      "correct_answer": "Functions",
       "incorrect_answers": [
-        "Single-GPU training",
-        "Reinforcement learning",
-        "Unsupervised learning"
+        "Extensions",
+        "Data Stores",
+        "RAG"
       ],
-      "link": "https://chat.openai.com/"
-    },
-    {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "AI",
-      "question": "What is the primary challenge in training very large language models?",
-      "correct_answer": "Computational resources and costs",
-      "incorrect_answers": [
-        "Lack of suitable algorithms",
-        "Data availability",
-        "Model interpretability"
-      ],
-      "link": "https://chat.openai.com/"
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
     },
     {
       "type": "multiple",
       "difficulty": "medium",
-      "category": "AI",
-      "question": "Which optimization technique is commonly used in training deep neural networks?",
-      "correct_answer": "Stochastic Gradient Descent (SGD)",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "What does the ReAct framework enable agents to do?",
+      "correct_answer": "Combine reasoning and action steps in decision-making",
       "incorrect_answers": [
-        "Genetic algorithms",
-        "Random search",
-        "Ant Colony Optimization"
+        "Focus only on reasoning capabilities",
+        "Enhance memory storage",
+        "Integrate multiple models simultaneously"
       ],
-      "link": "https://chat.openai.com/"
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
     },
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "AI",
-      "question": "What is the purpose of the attention mechanism in transformer-based models?",
-      "correct_answer": "Capturing long-range dependencies in input sequences",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "Which type of data source allows agents to dynamically access structured and unstructured data?",
+      "correct_answer": "Data Stores",
       "incorrect_answers": [
-        "Reducing model complexity",
-        "Enhancing model interpretability",
-        "Enabling parallel processing"
+        "Functions",
+        "Extensions",
+        "Orchestration Layer"
       ],
-      "link": "https://chat.openai.com/"
-    },
-    {
-      "type": "multiple",
-      "difficulty": "easy",
-      "category": "AI",
-      "question": "What is the role of the decoder in a transformer architecture?",
-      "correct_answer": "Generating output sequence from the learned representations",
-      "incorrect_answers": [
-        "Encoding input sequence",
-        "Calculating attention scores",
-        "Regularizing the model"
-      ],
-      "link": "https://chat.openai.com/"
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
     },
     {
       "type": "multiple",
       "difficulty": "medium",
-      "category": "AI",
-      "question": "Which evaluation metric is commonly used for language generation tasks?",
-      "correct_answer": "BLEU (Bilingual Evaluation Understudy)",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "What is the main advantage of the Tree-of-Thoughts (ToT) framework?",
+      "correct_answer": "It supports exploration and strategic lookahead tasks.",
       "incorrect_answers": [
-        "F1 score",
-        "Precision",
-        "Recall"],
-      "link": "https://chat.openai.com/"
+        "It focuses solely on reasoning via intermediate steps.",
+        "It optimizes multi-model integration.",
+        "It accelerates tool execution."
+      ],
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "What kind of use case is best suited for Extensions in an agent?",
+      "correct_answer": "Tasks requiring real-time interaction with APIs",
+      "incorrect_answers": [
+        "Operations limited to local computation",
+        "Batch processing tasks",
+        "Security-sensitive operations"
+      ],
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "BTP AI Updates Jan 2025",
+      "question": "What does retrieval-based in-context learning rely on?",
+      "correct_answer": "Dynamic population of the model prompt with relevant data",
+      "incorrect_answers": [
+        "Fine-tuning with large datasets",
+        "Static decision-making frameworks",
+        "Direct tool execution in real-time"
+      ],
+      "link": "https://drive.google.com/file/d/1oEjiRCTbd54aSdB_eEe3UShxLBWK9xkt/view"
     }
   ]
 }
