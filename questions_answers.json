@@ -4,7 +4,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "What is the primary role of tools in a Generative AI agent's architecture?",
       "correct_answer": "To enable interaction with external systems and access real-time data",
       "incorrect_answers": [
@@ -17,7 +17,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "Which framework is designed to enable reasoning capabilities through intermediate steps in AI agents?",
       "correct_answer": "Chain-of-Thought (CoT)",
       "incorrect_answers": [
@@ -30,7 +30,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "How does an agent differ from a standalone language model?",
       "correct_answer": "Agents use tools and have orchestration layers for planning and decision-making.",
       "incorrect_answers": [
@@ -43,7 +43,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "What is the purpose of the orchestration layer in an agent?",
       "correct_answer": "To manage reasoning, decision-making, and task execution cycles.",
       "incorrect_answers": [
@@ -56,7 +56,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "Which tool type is executed on the client-side, offering developers more control over API calls?",
       "correct_answer": "Functions",
       "incorrect_answers": [
@@ -69,7 +69,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "What does the ReAct framework enable agents to do?",
       "correct_answer": "Combine reasoning and action steps in decision-making",
       "incorrect_answers": [
@@ -82,7 +82,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "Which type of data source allows agents to dynamically access structured and unstructured data?",
       "correct_answer": "Data Stores",
       "incorrect_answers": [
@@ -95,7 +95,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "What is the main advantage of the Tree-of-Thoughts (ToT) framework?",
       "correct_answer": "It supports exploration and strategic lookahead tasks.",
       "incorrect_answers": [
@@ -108,7 +108,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "What kind of use case is best suited for Extensions in an agent?",
       "correct_answer": "Tasks requiring real-time interaction with APIs",
       "incorrect_answers": [
@@ -121,7 +121,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "AI Agents",
       "question": "What does retrieval-based in-context learning rely on?",
       "correct_answer": "Dynamic population of the model prompt with relevant data",
       "incorrect_answers": [
@@ -134,7 +134,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "HANA Cloud embedding",
       "question": "What is the primary purpose of the text embedding function in SAP HANA Cloud's Predictive Analysis Library (PAL)?",
       "correct_answer": "To convert text data into numerical vectors for advanced text mining and machine learning applications.",
       "incorrect_answers": [
@@ -147,7 +147,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "HANA Cloud embedding",
       "question": "Which SQL procedure is used to generate text embeddings in SAP HANA Cloud's PAL?",
       "correct_answer": "PAL_TEXTEMBEDDING",
       "incorrect_answers": [
@@ -160,7 +160,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "HANA Cloud embedding",
       "question": "What parameter specifies the type of input text in the PAL_TEXTEMBEDDING procedure?",
       "correct_answer": "IS_QUERY",
       "incorrect_answers": [
@@ -173,7 +173,7 @@
     {
       "type": "multiple",
       "difficulty": "hard",
-      "category": "BTP AI Updates Jan 2025",
+      "category": "HANA Cloud embedding",
       "question": "What is the default behavior if the MODEL_VERSION parameter is not specified in the PAL_TEXTEMBEDDING procedure?",
       "correct_answer": "The latest model version will be used.",
       "incorrect_answers": [
